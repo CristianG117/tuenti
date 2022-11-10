@@ -1,0 +1,46 @@
+:root{
+    --blanco: #ffffff;
+    --primario: #0477BF;
+   
+
+}
+
+.titulo{
+    margin-left: 40%;
+}
+
+body{
+background-color: #0477BF;
+
+}
+
+.twenti{
+background-color: var(--blanco);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.datos .contains{
+    display: flex;
+    
+}
+
+.datos .contains p{
+    padding-right: 1rem;
+    
+}
+
+.datos .contains input{
+    height: 1.5rem;
+    border-radius: .40rem;
+    
+}
+
+.button .boton{
+    background-color: #0477BF;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 65rem;
+    margin-bottom: 3rem;
+}
